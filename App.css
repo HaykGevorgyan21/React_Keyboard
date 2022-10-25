@@ -1,0 +1,62 @@
+body{
+  background-color: #1B2B34;
+}
+.btk_keyboard{
+ background-color: black;
+ margin: 5px;
+ display: inline-block;
+ color: white;
+ width: 50px;
+ height: 50px;
+ border-radius: 8px;
+ text-align: center;
+ font-size: 18px;
+ font-weight: bold;
+ cursor: pointer;
+}
+.btk_keyboard:active{
+  box-shadow: 2px 2px 1px 1px;
+}
+
+.keyboard_bar{
+  background-color: rgb(96, 94, 94);
+  width: 674px;
+  height: 310px;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 1px 1px 1px;
+  border-radius: 8px;
+}
+
+.btk_keyboard:nth-child(32){
+  width: 124px;
+}
+.btk_keyboard:nth-child(40){
+  width: 300px;
+  margin-left: 25%;
+}
+.btk_keyboard:nth-child(11){
+  width: 64px;
+}
+.btk_keyboard:nth-child(22){
+  width: 64px;
+}
+
+
+.text input{
+  width: 99%;
+  height: 40vh;
+  font-size: 30px;
+  color: blue;
+  font-weight: bold;
+  background-color: #5F5D5D;
+}
+
+.btk_keyboard:hover{
+  background-color: silver;
+}
+.btk_keyboard{
+  box-shadow: inset  1px 1px 1px 1px rgb(0, 145, 255);
+}
